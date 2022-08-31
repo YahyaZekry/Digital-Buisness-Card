@@ -1,11 +1,9 @@
 {
-  "homepage": "https://yahyazekry.github.io/Digital-Buisness-Card",
   "name": "digital-buisness-card",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
     "deploy": "npm run build && git add dist -f && git commit -m'hosting'  && git subtree push --prefix dist origin gh-pages",
     "dev": "vite",
     "build": "vite build",
