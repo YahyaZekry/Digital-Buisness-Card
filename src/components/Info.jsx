@@ -18,14 +18,14 @@ export default function Info() {
         </a>
         <div className="contact">
           <a href="mailto: yahyazekry@gmail.com">
-            <img src="../assets/email-button.svg" alt="email" />
+            <img src={"../assets/email-button.svg"} alt="email" />
           </a>
           <a
             href="https://www.linkedin.com/in/yahyazekry/"
             rel="noopener noreferrer"
             target="_blank"
           >
-            <img src="../assets/linkedin-button.svg" alt="linkedin" />
+            <img src={"../assets/linkedin-button.svg"} alt="linkedin" />
           </a>
         </div>
       </div>
