@@ -1,13 +1,10 @@
 import React from "react";
+import ProfilePicture from "./src/assets/profile-picture.jpg";
 
 export default function Info() {
   return (
     <div className="info">
-      <img
-        src={"./src/assets/profile-picture.jpg"}
-        alt="Yahya Zekry"
-        className="portrait"
-      />
+      <img src={ProfilePicture} alt="Yahya Zekry" className="portrait" />
       <div className="content">
         <h1 className="name">Yahya Zekry</h1>
         <h4 className="job">Frontend Developer</h4>
