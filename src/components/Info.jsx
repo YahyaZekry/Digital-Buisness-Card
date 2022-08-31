@@ -4,7 +4,7 @@ export default function Info() {
   return (
     <div className="info">
       <img
-        src={./src/assets/profile-picture.jpg}
+        src={"./src/assets/profile-picture.jpg"}
         alt="Yahya Zekry"
         className="portrait"
       />
