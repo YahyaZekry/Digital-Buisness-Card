@@ -11,7 +11,7 @@ export default function Info() {
         <h1 className="name">Yahya Zekry</h1>
         <h4 className="job">Frontend Developer</h4>
         <a
-          href="https://youtu.be/B6ue7fSOOcw?t=18"
+          href="https://yahyazekry.blogspot.com/"
           rel="noopener noreferrer"
           target="_blank"
           className="website"
