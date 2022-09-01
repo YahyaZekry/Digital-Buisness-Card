@@ -16,20 +16,6 @@ body {
 a {
   display: block;
 }
-.container {
-  background-color: rgba(35, 37, 44, 1);
-  display: flex;
-  flex-direction: column;
-  width: 30rem;
-  /* height: 75rem; */
-  overflow: hidden;
-  margin: 5rem auto;
-  border: 0.2rem solid #fff;
-  border-radius: 2rem;
-  padding: 0.4em;
-  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe,
-    0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
-}
 
 .portrait {
   max-width: 100%;
@@ -98,9 +84,6 @@ a {
 }
 
 .footer {
-  position: relative;
-  left: 0;
-  bottom: 0;
   width: 100%;
   height: 3.17rem;
   background-color: rgba(22, 22, 25, 1);
